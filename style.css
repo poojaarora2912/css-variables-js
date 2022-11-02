@@ -1,5 +1,5 @@
 :root{
-    --base:#0000FF;
+    --base:#9191b9;
     --spacing: 10px;
     --blur: 10px;
 }
@@ -8,5 +8,9 @@ img{
     padding: var(--spacing);
     background: var(--base);
     filter:blur(var(--blur));
+}
+body{
+    background-color: rgb(225, 225, 216);
+    text-align: center;
 }
 
